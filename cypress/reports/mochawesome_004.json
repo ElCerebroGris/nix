@@ -1,0 +1,155 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2024-07-31T19:30:53.837Z",
+    "end": "2024-07-31T19:30:55.583Z",
+    "duration": 1746,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ea4fedd1-ced6-4838-9a1b-a377a35cf83a",
+      "title": "",
+      "fullFile": "cypress\\integration\\features\\api-tests.feature",
+      "file": "cypress\\integration\\features\\api-tests.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b7486668-8763-41d6-8766-290ecc89455c",
+          "title": "Testes de API",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Criar um novo post",
+              "fullTitle": "Testes de API Criar um novo post",
+              "timedOut": null,
+              "duration": 670,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: que eu tenho uma nova postagem com título \"foo\" e corpo \"bar\"",
+                "estack": "Error: Step implementation missing for: que eu tenho uma nova postagem com título \"foo\" e corpo \"bar\"\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)",
+                "diff": null
+              },
+              "uuid": "6cf05ddf-3d63-417c-8da8-292fa30874f9",
+              "parentUUID": "b7486668-8763-41d6-8766-290ecc89455c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Atualizar um post existente",
+              "fullTitle": "Testes de API Atualizar um post existente",
+              "timedOut": null,
+              "duration": 473,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: que eu tenho um post existente com id 1",
+                "estack": "Error: Step implementation missing for: que eu tenho um post existente com id 1\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)",
+                "diff": null
+              },
+              "uuid": "34fc577f-b280-48c1-a0a4-f4bb78dad7dd",
+              "parentUUID": "b7486668-8763-41d6-8766-290ecc89455c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Consultar um post existente",
+              "fullTitle": "Testes de API Consultar um post existente",
+              "timedOut": null,
+              "duration": 334,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: que eu tenho um post existente com id 1",
+                "estack": "Error: Step implementation missing for: que eu tenho um post existente com id 1\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:199:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)",
+                "diff": null
+              },
+              "uuid": "a380118f-4e5e-4d87-ab18-e3e33d2a1d07",
+              "parentUUID": "b7486668-8763-41d6-8766-290ecc89455c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "6cf05ddf-3d63-417c-8da8-292fa30874f9",
+            "34fc577f-b280-48c1-a0a4-f4bb78dad7dd",
+            "a380118f-4e5e-4d87-ab18-e3e33d2a1d07"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1477,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
